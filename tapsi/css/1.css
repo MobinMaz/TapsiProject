@@ -1,0 +1,133 @@
+@font-face {
+    font-family: IranYekan;
+    src: url(../fonts/Vazirmatn-FD-Regular.ttf);
+}
+
+body {
+    font-family: IranYekan;
+    direction: rtl;
+}
+
+.navLinkli {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+li{
+    list-style-type: none;
+}
+.navLinkli:hover {
+    color: #FF5722;
+}
+
+.nabtext {
+    white-space: nowrap;
+    text-align: center;
+}
+
+.backBaner {
+    background: black;
+    width: 100%;
+    height: 71vh;
+    position: relative;
+}
+
+.mockup-phone {
+    height: 120%;
+    position: absolute;
+    z-index: 200;
+    width: 27%;
+    bottom: -210px;
+    left: 10%;
+}
+.iconCursser{
+    cursor: pointer;
+}
+.footerCUrseer:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.glassBaner {
+    background: rgba(23, 26, 60, 0.58);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.3px);
+    -webkit-backdrop-filter: blur(0.3px);
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    padding: 2%;
+    border-radius: 32px;
+    width: 600px;
+}
+
+.smallBaner {
+    display: none;
+}
+
+.btn {
+    white-space: nowrap;
+    text-align: center;
+}
+
+.tapsiServisIcon {
+    margin-top: 10%;
+    margin-right: 11%;
+    font-size: xx-large;
+}
+.hide{
+    display: block;
+}
+.show{
+    display: none;
+}
+.test{
+    border-radius: 29px !important;
+}
+input,textarea { 
+    background-color: #E8E8E8 !important;
+    
+  }
+.grayText{
+    color: #7B7B7B;
+}
+@media only screen and (max-width: 995px) {
+    .mockup-phone {
+        display: none;
+    }
+
+    .bigBanner {
+        display: none;
+    }
+    .backBaner{
+        height: 80vh;
+        
+    }
+    .smallBaner {
+        display: block;
+        
+        
+    }
+
+    .glassBaner {
+        width: 270px;
+        right: 34%;
+        bottom: 6%;
+    }
+    .tapsiServisIcon{
+        font-size: x-large;
+    }
+    .hide{
+        display: none;
+    }
+    .show{
+        display: block;
+    }
+    .centerItem{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
